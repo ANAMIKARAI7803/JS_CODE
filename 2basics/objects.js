@@ -3,7 +3,7 @@
 
 //objec literals 
 
-
+                                                //   key value pair
 const mySym = Symbol("key1")
 const JsUser = {
     name : "ana",
@@ -29,7 +29,7 @@ JsUser.email = "ajakeirkd@W334"
 Object.freeze(JsUser)
 JsUser.email = "ajdfksk@132324"
 console.log(JsUser);
-
+ 
 // symbol key value ki trh kaam karega bina bracket ka
 
 JsUser.greeting = function(){
