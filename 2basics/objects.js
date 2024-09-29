@@ -1,9 +1,9 @@
 // singleton used connstrutor but not literals 
 // two method ha -- literla and constructor
 
-//objec literals 
+//object literals 
 
-                                                //   key value pair
+//   key value pair
 const mySym = Symbol("key1")
 const JsUser = {
     name : "ana",
@@ -13,7 +13,10 @@ const JsUser = {
     locations : "bhopap",
     email: "anamikarai7803@gmail",
     isLoggedIn : false,
-    lastloginDay :["monday","tuesday"]
+    lastloginDay :["monday","tuesday"],
+    greeting : function(){
+        console.log("hello JS user");
+    }
 }
 console.log(JsUser.email)
 console.log(JsUser["email"])
@@ -29,14 +32,16 @@ JsUser.email = "ajakeirkd@W334"
 Object.freeze(JsUser)
 JsUser.email = "ajdfksk@132324"
 console.log(JsUser);
- 
+
 // symbol key value ki trh kaam karega bina bracket ka
 
 JsUser.greeting = function(){
     console.log("hello JS user");
-    
+
 }
 console.log(JsUser.greeting);
+
+
 
 
 
