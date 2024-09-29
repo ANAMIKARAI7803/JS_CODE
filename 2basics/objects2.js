@@ -29,7 +29,7 @@ const regularUser = {
 }
 console.log(regularUser.fullname);
 
-// ? use krna ha toh if else use hoga 
+// ?: use krna ha toh if else use hoga (ternary opertor)
 
 // combined objects ( array ki trh )
 
@@ -37,10 +37,10 @@ const obj1 = {1 : "a", 2: "b"}
 const obj2 = {3: "a", 4 : "b"}
 
 // const obj3 = {obj1 , obj2}
-// const obj3 = Object.assign({}, obj1, obj2) 
+// const obj3 = Object.assign({}, obj1, obj2) //empty object 
 
 const obj3 = {...obj1,...obj2}
-// console.log(obj3);
+// console.log(obj3);  (spread operator agr bina dot lgya krnga bs refernce sari value dalnaha )
 
 // -----Database VAlue lete ha toh kaisa lete ha ??
 
@@ -64,8 +64,9 @@ users[1].email
 console.log(tinderUser);
 
 console.log(Object.keys[tinderUser]);
-console.log(Object.values[tinderUser]);
+console.log(Object.values[tinderUser]); //
 
+//(object inbuild ha or iska typeof ha function ha)
 
 
 // loop me uuse kr skte ha sari key values nikal lete ha 
