@@ -31,8 +31,8 @@ function addTwoNumber(num1, num2){ //parameters
     return num1 + num2
     
 }
-const result = addTwoNumber(12, "3") //arugments like 12 and 3 
-
+const result = addTwoNumber(12, "3")//arugments like 12 and 3 
+ 
 // console.log("results:", result);
 
 
