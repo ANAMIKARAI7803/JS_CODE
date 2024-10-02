@@ -14,9 +14,6 @@ const JsUser = {
     email: "anamikarai7803@gmail",
     isLoggedIn : false,
     lastloginDay :["monday","tuesday"],
-    greeting : function(){
-        console.log("hello JS user");
-    }
 }
 console.log(JsUser.email)
 console.log(JsUser["email"])
@@ -41,7 +38,7 @@ JsUser.greeting = function(){
 }
 console.log(JsUser.greeting);
 
-
+// GREETING KREK FUNCTION LGA DIYA AGL SE DEFINE KRNE KA LIYE
 
 
 
