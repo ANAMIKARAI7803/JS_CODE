@@ -16,7 +16,7 @@ tinderUser.isLoggedIn = false
 
 // console.log(tinderUser);
 
-// objects ka andar objects
+//Nested objects ka andar objects
 
 const regularUser = {
     email : "ana@123@gmail.com",

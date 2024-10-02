@@ -19,7 +19,7 @@ let a = 300
 if (true){
     let a = 10 
     const b = 30 //block scope
-    console.log("inner:", a);
+    console.log("inner:", a);  // output 10 or 300 
     
 }
 console.log(a);

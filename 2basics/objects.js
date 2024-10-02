@@ -38,7 +38,9 @@ JsUser.greeting = function(){
 }
 console.log(JsUser.greeting);
 
-// GREETING KREK FUNCTION LGA DIYA AGL SE DEFINE KRNE KA LIYE
+// GREETING KREK FUNCTION LGA DIYA AGL SE DEFINE KRNE KA LIYE function store 
+JsUser.anamika = "rai"
+
 
 
 
