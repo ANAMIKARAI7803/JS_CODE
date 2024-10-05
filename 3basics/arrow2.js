@@ -1,6 +1,7 @@
 // const addTwo = (num1, num2) => {
 //     return num1 + num2
 // }
+// curly bracket ka ssath return likhna baut jada important ha kkk
 
 
 //  another type 
