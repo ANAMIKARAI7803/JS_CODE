@@ -6,6 +6,9 @@ function calculateCartPrice(val1, val2, ...num1){
 
 
 // rest or spread use case kab bolenga
+
+// spread = multple value assign krna (bikhar jata ha )
+// rest multiple num ka andar or bhi value ho skti ha isley hume pta nhi ha toh toh hum Rest
 //  rest operator ...calculateCartPrice
 
 
@@ -18,7 +21,7 @@ function handleObject(anyObject){
     console.log(`${anyObject.username} ${anyObject.age}`);
     
 }
-// handleObject(user)
+handleObject(user)
 
 // object banake bhi pass kr pa rhe ha
 
