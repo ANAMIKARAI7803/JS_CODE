@@ -9,3 +9,5 @@ const myTotal = mNums.reduce(function (acc , currval){
 },0)
 
 console.log(myTotal);
+
+//for loop and sb tarika se kr skte ha
