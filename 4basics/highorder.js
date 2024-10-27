@@ -41,9 +41,10 @@ for (const [key, value] of map) {  //agr muje aray me value lena ha toh square b
 // (ye error peint krega kyuki ye iterate nhi ha )
 // const map = new Map()
 // map.set('IN', 'India')
-// map.set('fr', "France")
+// map.set('FR', "France")
 
 // for (const key in map){
 //     console.log(map);
     
 // }
+
